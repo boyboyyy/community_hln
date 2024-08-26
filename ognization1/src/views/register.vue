@@ -363,6 +363,11 @@ const chanceSelect = (event: any) => {
 <style lang="less" scoped>
 .header-login {
     padding: var(--el-card-padding);
+
+    //登录按钮的样式
+    /deep/ .el-form-item__content {
+        justify-content: center !important;
+    }
 }
 
 .header-btn {
@@ -379,7 +384,14 @@ const chanceSelect = (event: any) => {
 
     .header-login {
         padding: var(--el-card-padding);
+
+        .mt-4 {
+            margin-top: 0 !important;
+        }
+
     }
+
+
 
     .radio-right-content {
         width: 246px;

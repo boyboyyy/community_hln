@@ -146,6 +146,13 @@ const login = async (formEl: FormInstance | undefined) => {
 
     .header-login {
       padding: var(--el-card-padding);
+
+      //登录按钮的样式
+      /deep/ .el-form-item__content {
+        display: flex;
+        justify-content: center !important;
+      }
+
     }
 
     .mt-4,
